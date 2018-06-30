@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import <CDDPagerController/DCPagerController.h>
+@interface ViewController : DCPagerController
 
 
 @end
