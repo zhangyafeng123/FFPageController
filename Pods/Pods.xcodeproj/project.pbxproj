@@ -7,112 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A841EB50ADE0E8A45DFD9136815F58 /* DCPagerMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A8670FC6C0D7B70139E9E2A8EE91D314 /* DCPagerMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2A60378193647FCF75350DD8F5C10629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		46C2A84B31BD0F4DABBA7483A7CCAA54 /* CDDPagerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D2302F2868466703A2F37F9B615D67 /* CDDPagerController-dummy.m */; };
-		65896851D252F22B8601A81C3F56AC24 /* DCPagerConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB17208CBC338D3AF59B3601B16F79F /* DCPagerConsts.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8D016DC50425F20A8048E8B70A627994 /* Pods-FFPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5CC6E87E834C2A1DA02BF841C2E63 /* Pods-FFPageController-dummy.m */; };
-		93216E08B9392C9474B7C981597AB2FF /* UIView+DCPagerFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E86DDC59500CA1ED09D59D35DDADD2 /* UIView+DCPagerFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B6D39D4923B30FF0E705689A9EDE3E9 /* UIView+DCPagerFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F823523860A9F11717CE0EE31645AC71 /* UIView+DCPagerFrame.m */; };
-		B02F4F2D508B3098BB2640ADF635A65B /* DCPagerConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 163212F7B282001D77DEE96D07ECD0F4 /* DCPagerConsts.m */; };
-		B4B97186C322E33B4670936828457EEB /* DCPagerProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BADAF7A55844B42CF3403DC78E0CEE /* DCPagerProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B60525184720B4295AB54781B99D531D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		CE18A213BB624F61DD1A48DA2E5E06BD /* DCPagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1551A3C13DC2A8E77E723EB1ECE586F /* DCPagerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DF6EC8790BBC3E5808E62302EB14C543 /* DCPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39434697CDB99AEBB52CF248252E309 /* DCPagerController.m */; };
-		E4D875769FF9C88B577AF9DC88523FA8 /* DCPagerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AE2B29C2E97F27B42A65797099E0A9 /* DCPagerProgressView.m */; };
-		E7F96B8072D142C2101AEDFEA22D6CD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		021297EC27D61BF04E27D380357ED1B3 /* Pods-FFPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5CC6E87E834C2A1DA02BF841C2E63 /* Pods-FFPageController-dummy.m */; };
+		CCA9157A98A2121E93D153222325491D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B1673211610793FFB1344658BF05EE68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B00C42424A9EC699132E8D3E2F761EC7;
-			remoteInfo = CDDPagerController;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		163212F7B282001D77DEE96D07ECD0F4 /* DCPagerConsts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCPagerConsts.m; path = "CDDPagerController/Expand(扩展)/Const(常量)/DCPagerConsts.m"; sourceTree = "<group>"; };
+		075CF680FFED3B4E50F35B780DE67536 /* libPods-FFPageController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FFPageController.a"; path = "libPods-FFPageController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1986B83834496587DF531DBE808C7685 /* Pods-FFPageController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFPageController-frameworks.sh"; sourceTree = "<group>"; };
 		2161BA86D0F4532B0072539FB56576A7 /* Pods-FFPageController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFPageController-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2756FD5B0C0F68E844873B2FBBCC8202 /* libPods-FFPageController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FFPageController.a"; path = "libPods-FFPageController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F371CBDD8952D69D52B07D7CC9C4F53 /* CDDPagerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDDPagerController-prefix.pch"; sourceTree = "<group>"; };
 		573B8A10A5087EADF1A7FFBB7ADD22B7 /* Pods-FFPageController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFPageController.release.xcconfig"; sourceTree = "<group>"; };
 		60C5CC6E87E834C2A1DA02BF841C2E63 /* Pods-FFPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFPageController-dummy.m"; sourceTree = "<group>"; };
-		7EB17208CBC338D3AF59B3601B16F79F /* DCPagerConsts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPagerConsts.h; path = "CDDPagerController/Expand(扩展)/Const(常量)/DCPagerConsts.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8A9844D56E66F24A216C59A3C17D2EFB /* Pods-FFPageController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFPageController-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A80D83587C76F70FB8738174FDF67435 /* Pods-FFPageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFPageController.debug.xcconfig"; sourceTree = "<group>"; };
-		A8670FC6C0D7B70139E9E2A8EE91D314 /* DCPagerMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPagerMacros.h; path = "CDDPagerController/Expand(扩展)/Macros(宏)/DCPagerMacros.h"; sourceTree = "<group>"; };
-		B5E86DDC59500CA1ED09D59D35DDADD2 /* UIView+DCPagerFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DCPagerFrame.h"; path = "CDDPagerController/Expand(扩展)/Category(分类)/UIView+DCPagerFrame.h"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B6BADAF7A55844B42CF3403DC78E0CEE /* DCPagerProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPagerProgressView.h; path = CDDPagerController/View/DCPagerProgressView.h; sourceTree = "<group>"; };
-		C17F939419F4C61FCD9176FBA124D73B /* CDDPagerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDDPagerController.xcconfig; sourceTree = "<group>"; };
-		D3D2302F2868466703A2F37F9B615D67 /* CDDPagerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDDPagerController-dummy.m"; sourceTree = "<group>"; };
-		D82B830B2E08471300DE49EB31114DA5 /* libCDDPagerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCDDPagerController.a; path = libCDDPagerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E1551A3C13DC2A8E77E723EB1ECE586F /* DCPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPagerController.h; path = CDDPagerController/Controller/DCPagerController.h; sourceTree = "<group>"; };
-		E39434697CDB99AEBB52CF248252E309 /* DCPagerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCPagerController.m; path = CDDPagerController/Controller/DCPagerController.m; sourceTree = "<group>"; };
 		E52E4064115E1A8369395249FB1A76EA /* Pods-FFPageController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFPageController-resources.sh"; sourceTree = "<group>"; };
-		E7AE2B29C2E97F27B42A65797099E0A9 /* DCPagerProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCPagerProgressView.m; path = CDDPagerController/View/DCPagerProgressView.m; sourceTree = "<group>"; };
-		F823523860A9F11717CE0EE31645AC71 /* UIView+DCPagerFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DCPagerFrame.m"; path = "CDDPagerController/Expand(扩展)/Category(分类)/UIView+DCPagerFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		649A4100657F431FF3D2C8946F16815D /* Frameworks */ = {
+		2E80400713304B670AC3B6D190313D3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60525184720B4295AB54781B99D531D /* Foundation.framework in Frameworks */,
-				E7F96B8072D142C2101AEDFEA22D6CD2 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7A240D5FC5211C5E8DB032C4F4DA64E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A60378193647FCF75350DD8F5C10629 /* Foundation.framework in Frameworks */,
+				CCA9157A98A2121E93D153222325491D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7518FEED346DB61F734F9855D0748147 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D5443E667B14076EBD83724791532406 /* CDDPagerController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				7518FEED346DB61F734F9855D0748147 /* Pods */,
-				937E3C627C4B262F3C38DF8ED0410E78 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E4B9A57E0F5AAB4F52B9E3079702683A /* Products */,
 				F2FC7ECA0DE83928DC4955A93ABB9F3D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -132,42 +61,28 @@
 			path = "Target Support Files/Pods-FFPageController";
 			sourceTree = "<group>";
 		};
-		937E3C627C4B262F3C38DF8ED0410E78 /* Products */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D82B830B2E08471300DE49EB31114DA5 /* libCDDPagerController.a */,
-				2756FD5B0C0F68E844873B2FBBCC8202 /* libPods-FFPageController.a */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4B9A57E0F5AAB4F52B9E3079702683A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075CF680FFED3B4E50F35B780DE67536 /* libPods-FFPageController.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D190A9EA622EF747A24EBB1258FDF945 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C17F939419F4C61FCD9176FBA124D73B /* CDDPagerController.xcconfig */,
-				D3D2302F2868466703A2F37F9B615D67 /* CDDPagerController-dummy.m */,
-				4F371CBDD8952D69D52B07D7CC9C4F53 /* CDDPagerController-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CDDPagerController";
-			sourceTree = "<group>";
-		};
-		D5443E667B14076EBD83724791532406 /* CDDPagerController */ = {
-			isa = PBXGroup;
-			children = (
-				7EB17208CBC338D3AF59B3601B16F79F /* DCPagerConsts.h */,
-				163212F7B282001D77DEE96D07ECD0F4 /* DCPagerConsts.m */,
-				E1551A3C13DC2A8E77E723EB1ECE586F /* DCPagerController.h */,
-				E39434697CDB99AEBB52CF248252E309 /* DCPagerController.m */,
-				A8670FC6C0D7B70139E9E2A8EE91D314 /* DCPagerMacros.h */,
-				B6BADAF7A55844B42CF3403DC78E0CEE /* DCPagerProgressView.h */,
-				E7AE2B29C2E97F27B42A65797099E0A9 /* DCPagerProgressView.m */,
-				B5E86DDC59500CA1ED09D59D35DDADD2 /* UIView+DCPagerFrame.h */,
-				F823523860A9F11717CE0EE31645AC71 /* UIView+DCPagerFrame.m */,
-				D190A9EA622EF747A24EBB1258FDF945 /* Support Files */,
-			);
-			name = CDDPagerController;
-			path = CDDPagerController;
 			sourceTree = "<group>";
 		};
 		F2FC7ECA0DE83928DC4955A93ABB9F3D /* Targets Support Files */ = {
@@ -180,54 +95,21 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		6F70AC21257A4A7894335B7BC50FC563 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65896851D252F22B8601A81C3F56AC24 /* DCPagerConsts.h in Headers */,
-				CE18A213BB624F61DD1A48DA2E5E06BD /* DCPagerController.h in Headers */,
-				04A841EB50ADE0E8A45DFD9136815F58 /* DCPagerMacros.h in Headers */,
-				B4B97186C322E33B4670936828457EEB /* DCPagerProgressView.h in Headers */,
-				93216E08B9392C9474B7C981597AB2FF /* UIView+DCPagerFrame.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		B00C42424A9EC699132E8D3E2F761EC7 /* CDDPagerController */ = {
+		1D31D62258BB19E1D974684CDDA3E4FC /* Pods-FFPageController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AC4B7F6A8A0458BE1C36E6EECA9191C /* Build configuration list for PBXNativeTarget "CDDPagerController" */;
+			buildConfigurationList = C7895943CE6FC2953A983B70284F186B /* Build configuration list for PBXNativeTarget "Pods-FFPageController" */;
 			buildPhases = (
-				5E41B3682EB4B97E1A2333FD418D2835 /* Sources */,
-				649A4100657F431FF3D2C8946F16815D /* Frameworks */,
-				6F70AC21257A4A7894335B7BC50FC563 /* Headers */,
+				79CD67BBB0CAB2C148621233A0423288 /* Sources */,
+				2E80400713304B670AC3B6D190313D3B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = CDDPagerController;
-			productName = CDDPagerController;
-			productReference = D82B830B2E08471300DE49EB31114DA5 /* libCDDPagerController.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F52CC323506B8AE678D9AC6BA69466FE /* Pods-FFPageController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96B33312AF521EAD5227D9C33341347A /* Build configuration list for PBXNativeTarget "Pods-FFPageController" */;
-			buildPhases = (
-				900A5981271F74160AD9D2E3D3E282F0 /* Sources */,
-				A7A240D5FC5211C5E8DB032C4F4DA64E /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D137623452B81B56C71B0042058E2C58 /* PBXTargetDependency */,
 			);
 			name = "Pods-FFPageController";
 			productName = "Pods-FFPageController";
-			productReference = 2756FD5B0C0F68E844873B2FBBCC8202 /* libPods-FFPageController.a */;
+			productReference = 075CF680FFED3B4E50F35B780DE67536 /* libPods-FFPageController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -247,50 +129,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 937E3C627C4B262F3C38DF8ED0410E78 /* Products */;
+			productRefGroup = E4B9A57E0F5AAB4F52B9E3079702683A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B00C42424A9EC699132E8D3E2F761EC7 /* CDDPagerController */,
-				F52CC323506B8AE678D9AC6BA69466FE /* Pods-FFPageController */,
+				1D31D62258BB19E1D974684CDDA3E4FC /* Pods-FFPageController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E41B3682EB4B97E1A2333FD418D2835 /* Sources */ = {
+		79CD67BBB0CAB2C148621233A0423288 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C2A84B31BD0F4DABBA7483A7CCAA54 /* CDDPagerController-dummy.m in Sources */,
-				B02F4F2D508B3098BB2640ADF635A65B /* DCPagerConsts.m in Sources */,
-				DF6EC8790BBC3E5808E62302EB14C543 /* DCPagerController.m in Sources */,
-				E4D875769FF9C88B577AF9DC88523FA8 /* DCPagerProgressView.m in Sources */,
-				9B6D39D4923B30FF0E705689A9EDE3E9 /* UIView+DCPagerFrame.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		900A5981271F74160AD9D2E3D3E282F0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D016DC50425F20A8048E8B70A627994 /* Pods-FFPageController-dummy.m in Sources */,
+				021297EC27D61BF04E27D380357ED1B3 /* Pods-FFPageController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D137623452B81B56C71B0042058E2C58 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CDDPagerController;
-			target = B00C42424A9EC699132E8D3E2F761EC7 /* CDDPagerController */;
-			targetProxy = B1673211610793FFB1344658BF05EE68 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		01E7F23D6AD0DED15DDFE6C9A6A095F0 /* Debug */ = {
+		2A3B4677C00C830BE47AFDF5FEC6C02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573B8A10A5087EADF1A7FFBB7ADD22B7 /* Pods-FFPageController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40030AE5B8DC83B3B87BBBB4D49336D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A80D83587C76F70FB8738174FDF67435 /* Pods-FFPageController.debug.xcconfig */;
 			buildSettings = {
@@ -375,29 +258,6 @@
 			};
 			name = Debug;
 		};
-		6D4F08C1678664FCB8468FDF0091CB34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 573B8A10A5087EADF1A7FFBB7ADD22B7 /* Pods-FFPageController.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		703082A85162812D3B777E668767AD25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -456,65 +316,9 @@
 			};
 			name = Release;
 		};
-		96F74467FFB824A4E97BB4F56005328A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C17F939419F4C61FCD9176FBA124D73B /* CDDPagerController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CDDPagerController/CDDPagerController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CDDPagerController;
-				PRODUCT_NAME = CDDPagerController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C4108F72A3D275F17E71417708B9BE0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C17F939419F4C61FCD9176FBA124D73B /* CDDPagerController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CDDPagerController/CDDPagerController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CDDPagerController;
-				PRODUCT_NAME = CDDPagerController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AC4B7F6A8A0458BE1C36E6EECA9191C /* Build configuration list for PBXNativeTarget "CDDPagerController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96F74467FFB824A4E97BB4F56005328A /* Debug */,
-				C4108F72A3D275F17E71417708B9BE0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -524,11 +328,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96B33312AF521EAD5227D9C33341347A /* Build configuration list for PBXNativeTarget "Pods-FFPageController" */ = {
+		C7895943CE6FC2953A983B70284F186B /* Build configuration list for PBXNativeTarget "Pods-FFPageController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01E7F23D6AD0DED15DDFE6C9A6A095F0 /* Debug */,
-				6D4F08C1678664FCB8468FDF0091CB34 /* Release */,
+				40030AE5B8DC83B3B87BBBB4D49336D2 /* Debug */,
+				2A3B4677C00C830BE47AFDF5FEC6C02C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
